@@ -1,0 +1,29 @@
+body {
+  text-align: center;
+  background: url("http://i.imgur.com/Bpj9CCU.jpg");
+  background-size: cover;;
+  background-position: center;
+  font-family: arail;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+h1 {
+  color: grey;
+  font-weight: 100;
+  font-size: 44px;
+  text-decoration-color: grey;
+}
+div p {
+  background-color: transparent;
+}
+img {
+  height: 17%;
+  width: 17%;
+}
+p {
+  font-size: 25px;
+  font
+}
