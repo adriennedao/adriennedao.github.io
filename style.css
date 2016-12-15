@@ -1,29 +1,46 @@
-body {
-  text-align: center;
-  background: url("http://i.imgur.com/Bpj9CCU.jpg");
-  background-size: cover;;
-  background-position: center;
-  font-family: arail;
+
+@import "font-awesome-sprockets";
+@import "font-awesome";
+
+.navbar {
+  border: none;
+  text-transform: uppercase;
+  color: white;
 }
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
-h1 {
-  color: grey;
-  font-weight: 100;
-  font-size: 44px;
-  text-decoration-color: grey;
-}
-div p {
-  background-color: transparent;
-}
-img {
-  height: 17%;
-  width: 17%;
+
+navbar, .home-callout {
+  color: white;
+  font-size: 50px;
+  margin-top: -20px;
+  padding-top: 50px;
+  padding-bottom: 100px;
 }
 p {
-  font-size: 25px;
-  font
+  font-weight: 100;
+  font-style: normal;
+  color: white;
+  font-size: 1.25em;
+  margin: center;
+}
+
+p {
+  margin:0 0 10px;
+
+}
+body {
+      background: #f85032; /* fallback for old browsers */
+      background: -webkit-linear-gradient(to left, #f85032 , #e73827); /* Chrome 10-25, Safari 5.1-6 */
+      background: linear-gradient(to left, #f85032 , #e73827); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  }        
+
+ h1  {
+   font-family: 'Open Sens', sans-serif;
+   font-size: 300px;
+   color: white;
+ }
+ .navbar-default .navbar-brand {
+   color: white;
+ }
+ .navbar-default .navbar-nav > li > a {
+  color: white;
 }
