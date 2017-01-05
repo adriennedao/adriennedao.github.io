@@ -6,7 +6,7 @@ function googlemap() {
     "use strict";
     // Coordinates
     var latlng = new google.maps.LatLng(40.714353, -74.005973);
-    
+
     var stylez = [
     {
       featureType: "all",
@@ -32,10 +32,10 @@ function googlemap() {
         mapTypeIds: [google.maps.MapTypeId.ROADMAP, 'tehgrayz']
     }
     };
-    
+
     var map = new google.maps.Map(document.getElementById("google-map"), myMapOptions);
-    
-    var mapType = new google.maps.StyledMapType(stylez, { name:"Grayscale" });    
+
+    var mapType = new google.maps.StyledMapType(stylez, { name:"Grayscale" });
     map.mapTypes.set('tehgrayz', mapType);
     map.setMapTypeId('tehgrayz');
     // Map marker
@@ -56,7 +56,7 @@ function mobilemap() {
     "use strict";
     // Coordinates
     var latlng = new google.maps.LatLng(40.714353, -74.005973);
-    
+
     var stylez = [
     {
       featureType: "all",
@@ -82,10 +82,10 @@ function mobilemap() {
         mapTypeIds: [google.maps.MapTypeId.ROADMAP, 'tehgrayz']
     }
     };
-    
+
     var map = new google.maps.Map(document.getElementById("mobile-map"), myMapOptions);
-    
-    var mapType = new google.maps.StyledMapType(stylez, { name:"Grayscale" });    
+
+    var mapType = new google.maps.StyledMapType(stylez, { name:"Grayscale" });
     map.mapTypes.set('tehgrayz', mapType);
     map.setMapTypeId('tehgrayz');
     // Map marker
