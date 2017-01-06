@@ -1,4 +1,4 @@
-/* ---------------------- 
+/* ----------------------
 Stylesheet Guide
 -------------------------
 
@@ -177,8 +177,8 @@ blockquote:before {
     margin: 0px;
     z-index: 1;
     display: inline-block;
-    -webkit-background-clip: padding-box; 
-    -moz-background-clip: padding; 
+    -webkit-background-clip: padding-box;
+    -moz-background-clip: padding;
     background-clip: padding-box;
     content: '\f10d';
 	top: -10px;
@@ -1040,15 +1040,15 @@ form .cv-button {
     list-style-type: none;
 }
 .cvgrid li.cvgrid-animate {
-    -webkit-transition: all 500ms cubic-bezier(0.645, 0.045, 0.355, 1.000); 
-    -moz-transition: all 500ms cubic-bezier(0.645, 0.045, 0.355, 1.000); 
-    -ms-transition: all 500ms cubic-bezier(0.645, 0.045, 0.355, 1.000); 
-    -o-transition: all 500ms cubic-bezier(0.645, 0.045, 0.355, 1.000); 
+    -webkit-transition: all 500ms cubic-bezier(0.645, 0.045, 0.355, 1.000);
+    -moz-transition: all 500ms cubic-bezier(0.645, 0.045, 0.355, 1.000);
+    -ms-transition: all 500ms cubic-bezier(0.645, 0.045, 0.355, 1.000);
+    -o-transition: all 500ms cubic-bezier(0.645, 0.045, 0.355, 1.000);
     transition: all 500ms cubic-bezier(0.645, 0.045, 0.355, 1.000);
-    -webkit-transition-timing-function: cubic-bezier(0.645, 0.045, 0.355, 1.000); 
-    -moz-transition-timing-function: cubic-bezier(0.645, 0.045, 0.355, 1.000); 
-    -ms-transition-timing-function: cubic-bezier(0.645, 0.045, 0.355, 1.000); 
-    -o-transition-timing-function: cubic-bezier(0.645, 0.045, 0.355, 1.000); 
+    -webkit-transition-timing-function: cubic-bezier(0.645, 0.045, 0.355, 1.000);
+    -moz-transition-timing-function: cubic-bezier(0.645, 0.045, 0.355, 1.000);
+    -ms-transition-timing-function: cubic-bezier(0.645, 0.045, 0.355, 1.000);
+    -o-transition-timing-function: cubic-bezier(0.645, 0.045, 0.355, 1.000);
     transition-timing-function: cubic-bezier(0.645, 0.045, 0.355, 1.000);
 }
 .cvgrid li.wookmark-inactive {
@@ -1151,7 +1151,7 @@ form .cv-button {
     height: 100%;
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
-    
+
 }
 .cvfilters {
     list-style-type: none;
@@ -1187,6 +1187,10 @@ form .cv-button {
 	padding: 10px 15px;
 	overflow: hidden;
 }
+/*img {
+  width: 75px;
+  height: 50px;
+}
 /* ================= TESTIMONIALS ================== */
 .quovolve {
     margin-top: 60px;
@@ -1194,8 +1198,8 @@ form .cv-button {
 .quovolve blockquote {
     margin: 0px !important;
 }
-.quovolve-nav:after { 
-    clear: both; 
+.quovolve-nav:after {
+    clear: both;
 }
 .quovolve-nav {
     margin: 5px 0px 0px 0px;
@@ -1218,7 +1222,7 @@ form .cv-button {
     -ms-transition: all 0.2s ease-in-out;
 }
 .nav-numbers {
-    list-style: none; 
+    list-style: none;
     margin: 0;
     float: right;
 }
@@ -1227,7 +1231,7 @@ form .cv-button {
     margin: 0 0 0 5px;
 }
 .nav-numbers li a {
-    padding-left: 0px; 
+    padding-left: 0px;
     padding-right: 0px;
     width: 40px;
 }

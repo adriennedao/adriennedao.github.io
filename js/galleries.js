@@ -113,17 +113,17 @@ jQuery('#gallery4').on('click', function (e) {
         counter: true,
         // Images
         dynamicEl: [{
-            'src': 'images/photos/800.png',
+            'src': 'images/photos/my-recipe-homecook.png',
             'thumb': 'images/photos/150.png',
-            'subHtml': 'Tamen excepteur'
+            'subHtml': 'RecipeApp'
         }, {
-            'src': 'images/photos/800.png',
+            'src': 'images/photos/commUnity.png',
             'thumb': 'images/photos/150.png',
-            'subHtml': "Iudicem admodum"
+            'subHtml': "Community"
         }, {
-            'src': 'images/photos/800.png',
+            'src': 'images/photos/my-travelblog.png',
             'thumb': 'images/photos/150.png',
-            'subHtml': "Enim pariatur"
+            'subHtml': "TravelBlog"
         }]
     });
 });
