@@ -50,15 +50,14 @@ jQuery('#gallery2').on('click', function (e) {
         // Videos
         dynamicEl: [
             {
-                "src": "http://vimeo.com/70301553",
-                "subHtml": "Vimeo"
+               "src": "http://vimeo.com/70301553",
             },
-            { // You Tube videos work only on a server.
+           { // You Tube videos work only on a server.
                 "src": "http://www.youtube.com/embed/efVWyPNd3xw",
-                "subHtml": "You Tube"
-            }
-        ]
-    });
+               "subHtml": "You Tube"
+          }
+       ]
+   });
 });
 
 // GALLERY 3
