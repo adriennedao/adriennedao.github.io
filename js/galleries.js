@@ -26,7 +26,7 @@ jQuery('#gallery1').on('click', function (e) {
             'thumb': 'images/photos/150.png',
             'subHtml': "RecipeApp_project2"
         }, {
-            'src': 'images/photos/community.png',
+            'src': 'images/photos/commUnity.png',
             'thumb': 'images/photos/150.png',
             'subHtml': "Community"
         }]
