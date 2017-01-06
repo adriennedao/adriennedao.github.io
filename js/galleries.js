@@ -14,9 +14,9 @@ jQuery('#gallery1').on('click', function (e) {
         counter: true,
         // Images
         dynamicEl: [{
-            'src': 'images/photos/commUnity.png',
+            'src': 'images/photos/Saas.project_1.png',
             'thumb': 'images/photos/150.png',
-            'subHtml': 'Community_project3'
+            'subHtml': 'Saas side_project'
         }, {
             'src': 'images/photos/my-travelblog.png',
             'thumb': 'images/photos/150.png',
@@ -26,9 +26,9 @@ jQuery('#gallery1').on('click', function (e) {
             'thumb': 'images/photos/150.png',
             'subHtml': "RecipeApp_project2"
         }, {
-            'src': 'images/photos/Saas.project_1.png',
+            'src': 'images/photos/community.png',
             'thumb': 'images/photos/150.png',
-            'subHtml': "Saas side_project"
+            'subHtml': "Community"
         }]
     });
 });
