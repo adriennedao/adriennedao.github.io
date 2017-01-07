@@ -1174,10 +1174,7 @@ form .cv-button {
     -o-transition: all 0.2s ease-in-out;
     -ms-transition: all 0.2s ease-in-out;
 }
-/*p {
-  font-family: 'FontAwesome';
-  font-size: 20px;
-}
+
 /* ================= TOOLTIPS ================== */
 .tooltipster-dark .tooltipster-content,.tooltipster-light .tooltipster-content,.tooltipster-red .tooltipster-content {
 	font-size: 18px;
