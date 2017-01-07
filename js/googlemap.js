@@ -5,7 +5,7 @@
 function googlemap() {
     "use strict";
     // Coordinates
-    var latlng = new google.maps.LatLng(40.714353, -74.005973);
+    var latlng = new google.maps.LatLng(38.89511, -77.03637);
 
     var stylez = [
     {
